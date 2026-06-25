@@ -23,6 +23,19 @@ bird.shape(gif_path)  # Set the bird to use the full GIF path
 bird.penup()
 bird.dy = 0
 
+# scores
+score=0
+scoring=turtle.Turtle()
+scoring.hideturtle()
+scoring.penup()
+scoring.goto(0,250)
+scoring.write(
+    f"score={score}",
+    align="center",
+    font=("Arial",20,"bold")
+    )
+
+
 # top pipe
 top_pipe = turtle.Turtle()
 top_pipe.shape("square")  
@@ -42,10 +55,10 @@ bottom_pipe.goto(400, -300)
 def jump():
     bird.dy = 6  
 
-score=0
 screen.listen()
 screen.onkeypress(jump, "space") 
 run=True
+pipe_passed = False
 while run:
     # Gravity and physics
     bird.dy -= 0.25
@@ -60,6 +73,7 @@ while run:
         gap_y = random.randint(-100, 100)
         top_pipe.goto(400, gap_y + 250)
         bottom_pipe.goto(400, gap_y - 250)
+        pipe_passed = False
 
     # Collision detection
     if (bird.xcor() + 20 > top_pipe.xcor() - 30 and 
@@ -73,12 +87,33 @@ while run:
         run = False
 
     # Scoring
-    score += 1
     print(score)
 
     # Boundary check
     if bird.ycor() > 300 or bird.ycor() < -300:
         run = False
+    # scores
+    if bird.xcor()>top_pipe.xcor() and not pipe_passed:
+        score += 1
+        pipe_passed = True
+        scoring.clear()  
+        scoring.write(
+        f"score={score}",
+        align="center",
+        font=("Arial",20,"bold")
+        )
+
+
 
     screen.update()
-    time.sleep(0.01)
+    time.sleep(0.01) 
+
+game_over = turtle.Turtle()
+game_over.hideturtle()
+game_over.penup()
+game_over.goto(0, 0)
+game_over.write("GAME OVER", align="center", font=("Arial", 40, "bold"))
+screen.update()
+
+# Keep the window open until clicked
+screen.exitonclick()
