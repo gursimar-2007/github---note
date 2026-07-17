@@ -17,8 +17,8 @@ def main():
     name=input("name")
     age=input("age")
     student=Student(name,age)
-    print(student.display_data)
-    print(student.check_name)
+    print(student.display_data())
+    print(student.check_name())
 if __name__=="__main__":
     main()
     
