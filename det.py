@@ -8,9 +8,13 @@ n7=int(input("please enter the number"))
 n8=int(input("please enter the number"))
 n9=int(input("please enter the number"))
 det={
-    1:{"a11":n1,"a12":n2,"a13":n3},
-    2:{"a21":n4,"a22":n5,"a23":n6},
-    3:{"a31":n7,"a32":n8,"a33":n9}
+    1:{"frow":n1,"srow":n2,"trow":n3},
+    2:{"frow":n4,"srow":n5,"trow":n6},
+    3:{"frow":n7,"srow":n8,"trow":n9}
 }
+print("your matrix is this thingy")
 for k,v in det.items():
-    print(v["a11"])
+    print(f"{v["frow"]} {v["srow"]} {v["trow"]}")
+print("YOUR DETERMINANT IS")
+print(f"{n1*((n5*n9)-(n8*n6))}")
+
