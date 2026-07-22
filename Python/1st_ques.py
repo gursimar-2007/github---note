@@ -68,7 +68,7 @@ else:
 #         bill= (100*5)+(100*7)+((units-200)*10)
 #         print(bill)
 # except ValueError:
-# print("not efined")
+# print("not defined")
 # =================================================5th questions====================================
 
 # import random
