@@ -1,9 +1,9 @@
-#  Write a program which will find all such numbers which are divisible by 7 
-# but are not a multiple of 5, between 2000 and 3200 (both included).
-# The numbers obtained should be printed in a comma-separated sequence on a single line.
+mylist = [64, 34, 25, 12, 22, 11, 90, 5]
 
-# Hints: Consider use range(#begin, #end) method
-for i in range(2000,3201):
-    if i%7==0 and i%5!=0:
-        print(i,end=",")
-    # print()
+n = len(mylist)
+for i in range(n-1):
+  for j in range(n-i-1):
+    if mylist[j] > mylist[j+1]:
+      mylist[j], mylist[j+1] = mylist[j+1], mylist[j]
+
+print(mylist)
