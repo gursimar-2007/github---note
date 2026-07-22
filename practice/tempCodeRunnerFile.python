@@ -1,0 +1,9 @@
+dicts={
+    1:{"name":"name1","roll":"11","perc":"87%"},
+    2:{"name":"name2","roll":"12","perc":"92%"},
+    3:{"name":"name3","roll":"13","perc":"98%"},
+}
+print(f"|{"s.no":<20}| {"name":<20}| {"roll no":<20}| {"percentage":<20}|" )
+print("-"*88)
+for k,v in dicts.items():
+    print(f"|{k:<20}| {v["name"]:<20}| {v["roll"]:<20}| {v["perc"]:<20}|")

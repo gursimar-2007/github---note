@@ -1,0 +1,4 @@
+wizard_name="merlin"
+house="green"
+fav_spell="ninja"
+print(f"your fav wizard name is {wizard_name} and house is {house} and fav spell is {fav_spell}") 
