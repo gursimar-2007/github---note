@@ -1,10 +1,10 @@
-# Creates a 10 GB file almost instantly (if the filesystem supports sparse files)
-
-file_size_gb = 10
 filename = "large_file.bin"
+size_gb = 10
+chunk_size = 1024 * 1024  # 1 MB
+chunk = b"\0" * chunk_size
 
 with open(filename, "wb") as f:
-    f.seek(file_size_gb * 1024 * 1024 * 1024 - 1)
-    f.write(b"\0")
+    for _ in range(size_gb * 1024):
+        f.write(chunk)
 
-print(f"{filename} ({file_size_gb} GB) created.")
+print(f"{filename} ({size_gb} GB) created.")
