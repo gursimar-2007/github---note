@@ -13,5 +13,7 @@ for i in range(len(last_row)-2,-1,-1):
     print(last_row[i],end="")
 for i in range(1,-1,-1):
     print(list[i][0],end="")
-for items in list.pop(0):
-    print(items[1,2])
+for sublist in list:
+    sublist.pop(0)
+    sublist.pop(2)
+    print(sublist)
