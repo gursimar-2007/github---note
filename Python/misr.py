@@ -9,6 +9,9 @@ for items in list.pop(0):
 for sublist in list:
     print(sublist[-1],end="")
 last_row=list[-1]
-for i in range(len(last_row)-1,0,-1):
-    pass
-print(list[i])
+for i in range(len(last_row)-2,-1,-1):
+    print(last_row[i],end="")
+for i in range(1,-1,-1):
+    print(list[i][0],end="")
+for items in list.pop(0):
+    print(items[1,2])
