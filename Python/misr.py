@@ -8,7 +8,7 @@ for items in list.pop(0):
     print(items,end="")
 for sublist in list:
     print(sublist[-1],end="")
-# for reverser in list:
-    # print(reverser)
-print(list[::-1])
-
+last_row=list[-1]
+for i in range(len(last_row)-1,0,-1):
+    pass
+print(list[i])
