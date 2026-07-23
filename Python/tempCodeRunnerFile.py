@@ -1,9 +1,7 @@
-for i in range(0,5):
-#     for j in range(i):
-#         print("*", end=' ')
-#     print()
-# for i in range(5,0,-1):
-#     for j in range(i):
-#         print("*", end=' ')
-#     print()
-# rows = 6
+for items in list.pop(0):
+    print(items,end="")
+for row in list:
+    popped_integer = row.pop(3)
+    print(popped_integer,end="")
+for coloumn in list.reverse():
+    print(coloumn)
