@@ -5,15 +5,20 @@ list=[
     [13,14,15,16]
 ]
 for items in list.pop(0):
-    print(items,end="")
+    print(items,end=",")
 for sublist in list:
-    print(sublist[-1],end="")
+    print(sublist[-1],end=",")
 last_row=list[-1]
 for i in range(len(last_row)-2,-1,-1):
-    print(last_row[i],end="")
+    print(last_row[i],end=",")
+list.pop()
 for i in range(1,-1,-1):
-    print(list[i][0],end="")
+    print(list[i][0],end=",")
 for sublist in list:
     sublist.pop(0)
-    sublist.pop(2)
-    print(sublist)
+    sublist.pop()
+for item in list.pop(0):
+    print(item, end=",")
+last_row=list[-1]
+for i in range(len(last_row)-1,-1,-1):
+    print(last_row[i],end=",")
