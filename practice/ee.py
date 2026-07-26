@@ -11,3 +11,9 @@
 # for i in range(len(list)):
 #     sum=sum+list[i]
 # print(sum)
+list=[1,2,3,4,5]
+max_val=list[0]
+for i in range(len(list)):
+    if list[i]>max_val:
+        max_val=list[i]
+print(max_val)
