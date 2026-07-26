@@ -24,10 +24,10 @@
 # print(len(n))
 # for i in range(len(n)-1):
 #     print(i)
-list=[7,4,6,8,1,5]
-n=len(list)
-for i in range(n):
-    for j in range(n-i-1):
-        if list[j]>list[j+1]:
-            list[j],list[j+1]=list[j+1],list[j]
-print(list[len(list)-2])
+# list=[7,4,6,8,1,5,100,21,22,78,21,29,67,32,99]
+# n=len(list)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if list[j]>list[j+1]:
+#             list[j],list[j+1]=list[j+1],list[j]
+# print(list[len(list)-2])
