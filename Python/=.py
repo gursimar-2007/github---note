@@ -6,5 +6,8 @@ skipper==n
 for i in range(1,n+1):
     if i==3:
         continue
-    print(skipper)
+    print(i)
+    if i==4:
+        continue
+print(i)
         
