@@ -4,7 +4,7 @@ skipper=0
 print(f"the length of people on table are{n}")
 skipper==n
 for i in range(1,n+1):
-    if skipper==3:
+    if i==3:
         continue
     print(skipper)
         
