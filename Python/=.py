@@ -9,7 +9,7 @@ count=1
 for list in lists:
     count+=3
     if count==3:
-        list.pop(3)
+        lists.remove(3)
                 
 print(list)
         
