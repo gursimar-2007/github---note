@@ -5,6 +5,6 @@ print(f"the length of people on table are{n}")
 skipper==n
 for i in range(1,n+1):
     if i==3:
-        co
+        cseeee
 print(i)
         
