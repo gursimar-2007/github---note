@@ -5,8 +5,8 @@ for list in lists:
     count+=1
     current_person+=1
     if count==3:
-        count==0
-        lists.remove(current_person)
+        count=0
+        lists.remove(count)
                 
 print(lists)
         
