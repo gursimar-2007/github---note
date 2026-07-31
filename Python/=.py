@@ -7,6 +7,6 @@ while len(lists)>1:
     count+=1
     if count==3:
         count=0
-        lists.remove(li)
+        lists.pop(2)
 print(lists)
         
