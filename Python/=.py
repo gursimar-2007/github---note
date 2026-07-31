@@ -1,12 +1,23 @@
 lists=[1,2,3,4,5,6,7,8,9,10]
+index=0
 count=1
-for index in range(0,len(lists)):
-    pass
 while len(lists)>1:
-    (index + 1) % len(lists)
     count+=1
     if count==3:
-        count=0
         lists.pop(2)
+        count=0
+    else:
+        (index + 1) % len(lists)
 print(lists)
-        
+#         people = [...]
+# index = ?
+# count = 0
+
+# while more than one person remains:
+#     count += 1
+
+#     if count == 3:
+#         remove the person at index
+#         reset count
+#     else:
+#         move index to the next person (wrap around if needed)
