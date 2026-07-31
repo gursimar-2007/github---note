@@ -1,15 +1,15 @@
-lists=[1,2,3,4,5,6,7,8,9]
+people=[1,2,3,4,5,6,7,8,9]
 index=0
 count=1
-while len(lists)>1:
+while len(people)>1:
     # index+=1
     count+=1
     if count==3:
-        lists.pop(index)
+        people.pop(index)
         count=0
     else:
-         index = (index + 1) % len(lists)
-print(lists[0])
+         index = (index + 1) % len(people)
+print(people[0])
 #         people = [...]
 # index = ?
 # count = 0
