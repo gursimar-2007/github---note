@@ -8,5 +8,6 @@ while len(lists)>1:
         count=0
         lists.remove(count)
         (index + 1) % len(lists)
+        
 print(lists)
         
