@@ -3,11 +3,10 @@ count=1
 for index in range(0,len(lists)):
     pass
 while len(lists)>1:
+    (index + 1) % len(lists)
     count+=1
     if count==3:
         count=0
-        lists.remove(count)
-        (index + 1) % len(lists)
-        
+        lists.remove(li)
 print(lists)
         
