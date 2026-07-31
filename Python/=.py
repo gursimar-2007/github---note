@@ -3,11 +3,11 @@ index=0
 count=1
 while len(lists)>1:
     count+=1
+    index+=1
     if count==3:
-        lists.pop(2)
+        lists.pop(index)
         count=0
     else:
-        index+=1
         (index + 1) % len(lists)
 print(lists)
 #         people = [...]
