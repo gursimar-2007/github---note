@@ -1,4 +1,4 @@
-lists=[1,2,3,4,5,6,7,8,9,10]
+lists=[1,2,3,4,5,6,7,8,9]
 index=0
 count=1
 while len(lists)>1:
@@ -9,7 +9,7 @@ while len(lists)>1:
         count=0
     else:
         (index + 1) % len(lists)
-print(lists)
+print(lists[0])
 #         people = [...]
 # index = ?
 # count = 0
