@@ -8,7 +8,7 @@ while len(lists)>1:
         lists.pop(index)
         count=0
     else:
-        (index + 1) % len(lists)
+         index = (index + 1) % len(lists)
 print(lists[0])
 #         people = [...]
 # index = ?
