@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>catch me!!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background:#222;
+
+        }
+        #game{
+            width: 500px;
+            height: 350px;
+            background: #444;
+            margin:30 px auto;
+            position:relative;
+            border-radius: 15px;
+
+        }
+        #button {
+            position: absolute;
+            padding: 15px 25px;
+            background: hotpink;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+         </style>
+</head>
+
+<body>
+
+    <h1>🎯 Catch Me!</h1>
+    <p>Score: <span id="score">0</span></p>
+
+    <div id="game">
+        <button id="button">Catch Me!</button>
+    </div>
+
+    <script>
+        let score = 0;
+
+        const button = document.getElementById("button");
+        const game = document.getElementById("game");
+        const scoreText = document.getElementById("score");
+
+        button.onclick = function () {
+            score++;
+            scoreText.textContent = score;
+
+            let x = Math.random() * (game.clientWidth - button.offsetWidth);
+            let y = Math.random() * (game.clientHeight - button.offsetHeight);
+
+            button.style.left = x + "px";
+            button.style.top = y + "px";
+        };
+    </script>
+
+</body>
+</html>
+    </style>
+</head>
+</html>
