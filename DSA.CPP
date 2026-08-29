@@ -1,20 +1,18 @@
 // hey 
 #include<bits/stdc++.h>
 using namespace std;
-int getcircumfrence(float a,float b){
+float getcircumfrence(float radii){
     float c;
-    c=3.14*a*b;
+    c=2*3.14*radii;
     cout<<c;
     return c;
 }
 int main(){
-    int a,b;
+    float r;
 
-    cout<<"enter your number";
-    cin>>a;
-    cout<<"enter your second number";
-    cin>>b;
-    getcircumfrence(a,b);
+    cout<<"enter your radii";
+    cin>>r;
+    getcircumfrence(r);
     return 0;
 
 
