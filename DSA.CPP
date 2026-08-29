@@ -1,14 +1,21 @@
 // hey 
 #include<bits/stdc++.h>
 using namespace std;
-int find_max(int a,int b){
+int getcircumfrence(float a,float b){
+    float c;
+    c=3.14*a*b;
+    cout<<c;
+    return c;
+}
+int main(){
+    int a,b;
+
     cout<<"enter your number";
     cin>>a;
     cout<<"enter your second number";
     cin>>b;
-    if (a>b){
-        return a;
-    }else if(b>a){
-        return b;
-    }
+    getcircumfrence(a,b);
+    return 0;
+
+
 }
