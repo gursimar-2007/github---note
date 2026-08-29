@@ -10,11 +10,31 @@
         //     }
         
         // }
-#include<stdio.h>
-void main(){
-    int i,j,count;
-    int arr[10]={1,2,3,4,5,6,7};
-    for(int i=0;i<=sizeof(arr);i++){
-        printf("%d",arr[i]);
+#include <stdio.h>
+
+int main()
+{
+    int a[10],sz,key,i;
+
+    printf("Entr size of array: ");
+    scanf("%d", &sz);
+
+    printf("Entr arr element : ");
+    for(i = 0;i<sz;i++)
+    {
+        scanf("%d", &a[i]);
     }
+
+    printf("Enter key: ");
+    scanf("%d", &key);
+
+    for(i = 0; i < sz; i++)
+    {
+        if(a[i] == key)
+        {
+            printf("indices are %d ", i);
+        }
+    }
+
+    return 0;
 }
