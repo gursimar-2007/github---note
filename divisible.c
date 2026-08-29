@@ -15,6 +15,6 @@ void main(){
     int i,j,count;
     int arr[10]={1,2,3,4,5,6,7};
     for(int i=0;i<=sizeof(arr);i++){
-        printf(arr[i]);
+        printf("%d",arr[i]);
     }
 }
