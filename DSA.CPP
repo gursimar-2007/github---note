@@ -36,22 +36,26 @@
 // }
 #include<bits/stdc++.h>
 using namespace std;
-void swap(int &a,int &b){
-    a=a+b;
-    a=a-b;
-    b=a-b;
-    cout<<"your numbers are swapped now they are:"<<a<<b;
-    return ;
+// void swap(int &a,int &b){
+    //     cout<<"your numbers  before they were swapped were :"<<endl<<a <<","<<b<<endl;
+    //     a=a+b;
+    //     b=a-b;
+//     a=a-b;
+
+//     cout<<"your numbers are swapped now they are:"<<endl<<a<<"," <<b;
+//     return ;
 
     
     
-}
-int main(){
-    int a;
-    int b;
-    cout<<"your A::";
-    cin>>a;
-    cout<<"your B::";
-    cin>>b;
-    
-}
+// }
+// int main(){
+//     int a;
+//     int b;
+//     cout<<"your A::";
+//     cin>>a;
+//     cout<<"your B::";
+//     cin>>b;
+//     swap(a,b);
+// }
+#include<bits/stdc++.h>
+using namespace std;
