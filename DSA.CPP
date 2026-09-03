@@ -88,8 +88,8 @@ int main(){
         cout<<"enter element"<<i+1<<":   ";
         cin>>arr[i];
         
-        int max=arr[0];
     }
+    int max=arr[0];
     for(int j=0;j<10;j++){
     if(arr[j]>max){
         arr[j]=max;
