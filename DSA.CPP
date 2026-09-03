@@ -57,6 +57,17 @@ using namespace std;
 //     cin>>b;
 //     swap(a,b);
 // }
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
-
+int main(){
+int arr[10];
+int i;
+for(i=0;i<10;i++){
+    cin>>arr[i];
+    
+    
+    cout<<"the points in arr are"<<arr[i];
+}
+cout<<"input elements are arr:";
+cout<<endl;
+}
