@@ -84,6 +84,8 @@ int main(){
     int arr[10];
     int i;
     for (i=0;i<10;i++){
-        
+        cout<<"enter element"<<i+1<<":   ";
+        cin>>arr[i];
+        int minindex;
     }
 }
