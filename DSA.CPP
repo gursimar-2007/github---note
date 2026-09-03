@@ -78,17 +78,23 @@ using namespace std;
 
 //     return 0;
 // }
-#include<stdio.h>
+#include<iostream>
 using namespace std;
 int main(){
     int arr[10];
     int i;
+    int num;
     for (i=0;i<10;i++){
         cout<<"enter element"<<i+1<<":   ";
         cin>>arr[i];
         
     }
-    for(i=0;i<10;i++){
-        
+    for(int j=0;j<10;j++){
+    int min=arr[0];
+    if(num<min){
+        num=min;
     }
+    printf("%d",num);
+}
+    
 }
