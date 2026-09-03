@@ -57,17 +57,33 @@ using namespace std;
 //     cin>>b;
 //     swap(a,b);
 // }
-#include<iostream>
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[10]; // Declares an array of 10 integers
+
+//     // Input loop: fixed condition to avoid going out of bounds
+//     for (int i = 0; i < 10; i++) {
+//         cout << "Enter element " << i + 1 << ": ";
+//         cin >> arr[i];
+//     }
+
+//     // Output loop: properly print out all stored elements
+//     cout << "The elements in arr are: ";
+//     for (int i = 0; i < 10; i++) {
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
+
+//     return 0;
+// }
+#include<stdio.h>
 using namespace std;
 int main(){
-int arr[10];
-int i;
-for(i=0;i<10;i++){
-    cin>>arr[i];
-    
-    
-    cout<<"the points in arr are"<<arr[i];
-}
-cout<<"input elements are arr:";
-cout<<endl;
+    int arr[10];
+    int i;
+    for (i=0;i<10;i++){
+        
+    }
 }
