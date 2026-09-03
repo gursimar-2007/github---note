@@ -88,13 +88,13 @@ int main(){
         cout<<"enter element"<<i+1<<":   ";
         cin>>arr[i];
         
+        int max=arr[0];
     }
     for(int j=0;j<10;j++){
-    int min=arr[0];
-    if(num<min){
-        num=min;
+    if(arr[j]>max){
+        arr[j]=max;
     }
-    printf("%d",num);
+    printf("%d",max);
 }
     
 }
