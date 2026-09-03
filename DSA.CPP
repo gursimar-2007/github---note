@@ -111,8 +111,7 @@ int main(){
     int max=arr[0];
     for(int j=0;j<10;j++){
         if(arr[j]>max){
-            arr[j]=max;
         }
-        
+
     }
 }
