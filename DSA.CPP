@@ -115,7 +115,7 @@ using namespace std;
 
 //     }
 // }
-#include<stdio.h>
+#include<iostream>
 using namespace std;
 int addition(int a, int b);
 int subtract(int a, int b);
@@ -147,28 +147,28 @@ int main(){
 }
 int addition(int a,int b){
     int sum;
-    sum==a+b;
+    sum=a+b;
     cout<<"the added sum of :"<<a <<"and"<< b <<"is:" <<sum;
     return 0;
 
 }
 int subtract(int a,int b){
     int sub;
-    sub==a-b;
+    sub=a-b;
     cout<<"the subtraction of" <<a <<"and" <<b <<"is:" <<sub;
         return 0;
 
 }
 int divide(int a,int b){
     int div;
-    div==a/b;
+    div=a/b;
     cout<<"the division of "<<a<< "by" <<b<< "gives" <<div;
     return 0;
 
 }
 int multiply(int a,int b){
     int mul;
-    mul==a*b;
+    mul=a*b;
     cout<<"the multiplication of"<<a <<"and" <<b<<" gives "<<mul;
     return 0;
 
