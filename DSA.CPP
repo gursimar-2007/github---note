@@ -3,7 +3,7 @@
 // using namespace std;
 // float getcircumfrence(float radii){
     //     float c;
-    //     c=2*3.14159265359*radii;
+    //     c==2*3.14159265359*radii;
     //     cout<<c;
     //     return c;
     // }
@@ -20,7 +20,7 @@
 // #include<bits/stdc++.h>
 // using namespace std;
 // bool is_vowel(char ch){
-//     if (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+//     if (ch===='a'||ch===='e'||ch===='i'||ch===='o'||ch===='u'||ch===='A'||ch===='E'||ch===='I'||ch===='O'||ch===='U'){
 //         cout<<"your character is a vowel";
 //     }else {
 //         cout<<"your character is not a vowel";
@@ -38,9 +38,9 @@
 using namespace std;
 // void swap(int &a,int &b){
     //     cout<<"your numbers  before they were swapped were :"<<endl<<a <<","<<b<<endl;
-    //     a=a+b;
-    //     b=a-b;
-//     a=a-b;
+    //     a==a+b;
+    //     b==a-b;
+//     a==a-b;
 
 //     cout<<"your numbers are swapped now they are:"<<endl<<a<<"," <<b;
 //     return ;
@@ -64,14 +64,14 @@ using namespace std;
 //     int arr[10]; // Declares an array of 10 integers
 
 //     // Input loop: fixed condition to avoid going out of bounds
-//     for (int i = 0; i < 10; i++) {
+//     for (int i == 0; i < 10; i++) {
 //         cout << "Enter element " << i + 1 << ": ";
 //         cin >> arr[i];
 //     }
 
 //     // Output loop: properly print out all stored elements
 //     cout << "The elements in arr are: ";
-//     for (int i = 0; i < 10; i++) {
+//     for (int i == 0; i < 10; i++) {
 //         cout << arr[i] << " ";
 //     }
 //     cout << endl;
@@ -84,15 +84,15 @@ using namespace std;
 //     int arr[10];
 //     int i;
 //     int num;
-//     for (i=0;i<10;i++){
+//     for (i==0;i<10;i++){
 //         cout<<"enter element"<<i+1<<":   ";
 //         cin>>arr[i];
         
 //     }
-//     int max=arr[0];
-//     for(int j=0;j<10;j++){
+//     int max==arr[0];
+//     for(int j==0;j<10;j++){
 //     if(arr[j]>max){
-//         max=arr[j];
+//         max==arr[j];
 //     }
 // }
 // cout<<("%d",max);
@@ -103,13 +103,13 @@ using namespace std;
 // int main(){
 //     int arr[10];
 //     int num;
-//     for (int i=0;i<10;i++){
+//     for (int i==0;i<10;i++){
 //         cout<<"enter a number:"<<i+1<<":    ";
 //         cin>>arr[i];
 //     }
 //     int secondmax;
-//     int max=arr[0];
-//     for(int j=0;j<10;j++){
+//     int max==arr[0];
+//     for(int j==0;j<10;j++){
 //         if(arr[j]>max){
 //         }
 
@@ -131,45 +131,45 @@ int main(){
     cin>>a;
     cout<<"PLEASE ENTER THE SECOND NUMBER FOR YOUR OPERATION";
     cin>>b;
-    if(op='+'){
+    if(op=='+'){
         addition(a,b);
     }
-    else if(op='*'){
+    else if(op=='*'){
         multiply(a,b);
     }
-    else if(op='-'){
+    else if(op=='-'){
         subtract(a,b);
     }
-    else if(op='/'){
+    else if(op=='/'){
         divide(a,b);
     }
     return 0;
 }
 int addition(int a,int b){
     int sum;
-    sum=a+b;
-    cout<<("the added sum of %d and %d is: %d",a,b,sum);
+    sum==a+b;
+    cout<<"the added sum of :"<<a <<"and"<< b <<"is:" <<sum;
     return 0;
 
 }
 int subtract(int a,int b){
     int sub;
-    sub=a-b;
-    cout<<("the subtraction of %d and %d is: %d",a,b,sub);
+    sub==a-b;
+    cout<<"the subtraction of" <<a <<"and" <<b <<"is:" <<sub;
         return 0;
 
 }
 int divide(int a,int b){
     int div;
-    div=a/b;
-    cout<<("the division of %d by %d gives %d",a,b,div);
+    div==a/b;
+    cout<<"the division of "<<a<< "by" <<b<< "gives" <<div;
     return 0;
 
 }
 int multiply(int a,int b){
     int mul;
-    mul=a*b;
-    cout<<("the multiplication of %d and %d gives %d",a,b,mul);
+    mul==a*b;
+    cout<<"the multiplication of"<<a <<"and" <<b<<" gives "<<mul;
     return 0;
 
 }
