@@ -117,8 +117,12 @@ using namespace std;
 // }
 #include<stdio.h>
 using namespace std;
+int addition(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+int divide(int a, int b);
 int main(){
-    int op;
+    char op;
     int a;
     int b;
     cout<<"PLEASE SPECIFY YOUR OPERATION: (+ FOR ADDITION,- FOR SUBTRACTION,* FOR MULTIPLY,/ FOR DIVIDE)";
