@@ -95,7 +95,7 @@ using namespace std;
 //         max=arr[j];
 //     }
 // }
-// printf("%d",max);
+// cout<<("%d",max);
     
 // }
 // #include<stdio.h>
@@ -115,3 +115,49 @@ using namespace std;
 
 //     }
 // }
+#include<stdio.h>
+using namespace std;
+int main(){
+    int op;
+    int a;
+    int b;
+    cout<<"PLEASE SPECIFY YOUR OPERATION: (+ FOR ADDITION,- FOR SUBTRACTION,* FOR MULTIPLY,/ FOR DIVIDE)";
+    cin>>op;
+    cout<<"PLEASE ENTER THE FIRST NUMBER FOR YOUR OPERATION";
+    cin>>a;
+    cout<<"PLEASE ENTER THE SECOND NUMBER FOR YOUR OPERATION";
+    cin>>b;
+    if(op='+'){
+        addition(a,b);
+    }
+    else if(op='*'){
+        multiply(a,b);
+    }
+    else if(op='-'){
+        subtract(a,b);
+    }
+    else if(op='/'){
+        divide(a,b);
+    }
+}
+int addition(int a,int b){
+    int sum;
+    sum=a+b;
+    cout<<("the added sum of %d and %d is: %d",a,b,sum);
+
+}
+int subtract(int a,int b){
+    int sub;
+    sub=a-b;
+    cout<<("the subtraction of %d and %d is: %d",a,b,sub);
+}
+int divide(int a,int b){
+    int div;
+    div=a/b;
+    cout<<("the division of %d by %d gives %d",a,b,div);
+}
+int multiply(int a,int b){
+    int mul;
+    mul=a*b;
+    cout<<("the multiplication of %d and %d gives %d",a,b,mul);
+}
