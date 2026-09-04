@@ -178,7 +178,7 @@
 using namespace std;
 int sum(int n);
 int main(){
-    cout<<"the sum is "<<sum(564);
+    cout<<"the sum is "<<sum(5);
     return 0;
 }
 int sum(int n){
