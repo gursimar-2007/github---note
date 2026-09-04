@@ -185,6 +185,6 @@ int sum(int n){
     if (n==1){
         return 1;
     }
-    int sumn1=sum(n-1);
-    int sumn=(sumn1)*n;
+
+    int sumn=(n-1)*n;
 }
