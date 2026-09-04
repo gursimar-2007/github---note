@@ -98,20 +98,20 @@ using namespace std;
 // printf("%d",max);
     
 // }
-#include<stdio.h>
-using namespace std;
-int main(){
-    int arr[10];
-    int num;
-    for (int i=0;i<10;i++){
-        cout<<"enter a number:"<<i+1<<":    ";
-        cin>>arr[i];
-    }
-    int secondmax;
-    int max=arr[0];
-    for(int j=0;j<10;j++){
-        if(arr[j]>max){
-        }
+// #include<stdio.h>
+// using namespace std;
+// int main(){
+//     int arr[10];
+//     int num;
+//     for (int i=0;i<10;i++){
+//         cout<<"enter a number:"<<i+1<<":    ";
+//         cin>>arr[i];
+//     }
+//     int secondmax;
+//     int max=arr[0];
+//     for(int j=0;j<10;j++){
+//         if(arr[j]>max){
+//         }
 
-    }
-}
+//     }
+// }
