@@ -174,17 +174,33 @@
 
 // }
 
+// #include<iostream>
+// using namespace std;
+// int sum(int n);
+// int main(){
+//     cout<<"the recursion result is "<<sum(4);
+//     return 0;
+// }
+// int sum(int n){
+//     if (n==1){
+//         return 1;
+//     }
+
+//     int sumn=(n-1)*n;
+// }
 #include<iostream>
 using namespace std;
 int sum(int n);
 int main(){
-    cout<<"the recursion result is "<<sum(4);
+    sum(4);
     return 0;
 }
 int sum(int n){
     if (n==1){
         return 1;
     }
-
+    
+    
+    cout<<"hello world";
     int sumn=(n-1)*n;
 }
