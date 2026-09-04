@@ -178,7 +178,7 @@
 using namespace std;
 int sum(int n);
 int main(){
-    cout<<"the sum is "<<sum(5);
+    cout<<"the recursion result is "<<sum(4);
     return 0;
 }
 int sum(int n){
@@ -186,5 +186,5 @@ int sum(int n){
         return 1;
     }
     int sumn1=sum(n-1);
-    int sumn=(sumn1)+n;
+    int sumn=(sumn1)*n;
 }
