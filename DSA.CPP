@@ -57,6 +57,61 @@ using namespace std;
 //     cin>>b;
 //     swap(a,b);
 // }
-#include<bits/stdc++.h>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
+// int main() {
+//     int arr[10]; // Declares an array of 10 integers
+
+//     // Input loop: fixed condition to avoid going out of bounds
+//     for (int i = 0; i < 10; i++) {
+//         cout << "Enter element " << i + 1 << ": ";
+//         cin >> arr[i];
+//     }
+
+//     // Output loop: properly print out all stored elements
+//     cout << "The elements in arr are: ";
+//     for (int i = 0; i < 10; i++) {
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
+
+//     return 0;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[10];
+//     int i;
+//     int num;
+//     for (i=0;i<10;i++){
+//         cout<<"enter element"<<i+1<<":   ";
+//         cin>>arr[i];
+        
+//     }
+//     int max=arr[0];
+//     for(int j=0;j<10;j++){
+//     if(arr[j]>max){
+//         max=arr[j];
+//     }
+// }
+// printf("%d",max);
+    
+// }
+#include<stdio.h>
+using namespace std;
+int main(){
+    int arr[10];
+    int num;
+    for (int i=0;i<10;i++){
+        cout<<"enter a number:"<<i+1<<":    ";
+        cin>>arr[i];
+    }
+    int secondmax;
+    int max=arr[0];
+    for(int j=0;j<10;j++){
+        if(arr[j]>max){
+        }
+
+    }
+}
