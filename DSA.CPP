@@ -200,7 +200,7 @@ int sum(int n){
         return 1;
     }
     
-    
+    sum(n-1);
     cout<<"hello world";
-    int sumn=(n-1)*n;
+    
 }
