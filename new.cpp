@@ -10,14 +10,16 @@ int main(){
     int i;
     bool is_prime=true;
     for(i=a;i<=b;i++){
-        // cout<<i;
-        for(int j=1;j<=i;j++){
+        if(i<=1){
+            continue;
+        }
+    }
+        for(int j=1;j*j<=i;j++){
 
             if (i%j==0){
                 is_prime=false;
             }
         }
-    }
 // cout<<i;
 if(is_prime){
     cout<<i<<"";
