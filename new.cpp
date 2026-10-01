@@ -8,11 +8,11 @@ int main(){
     cout<<"enter your number 2";
     cin>>b;
     int i;
-    bool is_prime=true;
     for(i=a;i<=b;i++){
         if(i<=1){
             continue;
         }
+        bool is_prime=true;
         for(int j=2;j*j<=i;j++){
             
             if (i%j==0){
