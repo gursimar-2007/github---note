@@ -12,7 +12,9 @@ int main(){
         cout<<i;
     }
 // cout<<i;
-
+int usm;
+i==usm;
+cout<<usm;
 
 
 
