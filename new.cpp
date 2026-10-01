@@ -13,18 +13,18 @@ int main(){
         if(i<=1){
             continue;
         }
-    }
         for(int j=2;j*j<=i;j++){
-
+            
             if (i%j==0){
                 is_prime=false;
                 break;
             }
         }
-// cout<<i;
-if(is_prime){
-    cout<<i<<"";
-}
+        // cout<<i;
+        if(is_prime){
+            cout<<i<<"";
+        }
+    }
 cout<<endl;
 int usm;
 i==usm;
