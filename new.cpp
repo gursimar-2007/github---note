@@ -10,11 +10,17 @@ int main(){
     int i;
     for(i=a;i<=b;i++){
         cout<<i;
+        for(int j=1;j<=i;j++){
+
+            if (i%j!=0){
+                cout<<"a prime number"<<i;
+            }
+        }
     }
 // cout<<i;
 int usm;
 i==usm;
-cout<<usm;
+// cout<<usm;
 
 
 
