@@ -36,8 +36,15 @@ int main()
                 {
                     cout << "please enter amount to withdraw" << endl;
                     cin >> withdraw;
-                    balance -= withdraw;
-                    cout << "Your balance is now" << balance << endl;
+                    if(withdraw>balance){
+                        cout<<"you are slave"<<endl;
+                    }
+                    else{
+
+                        balance -= withdraw;
+                        cout << "Your balance is now" << balance << endl;
+                    }
+                    
                 }
                 else if (op == '4')
                 {
