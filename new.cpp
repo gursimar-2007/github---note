@@ -23,9 +23,9 @@ int main(){
         // cout<<i;
         if(is_prime){
             cout<<i<<"";
+            cout<<endl;
         }
     }
-// cout<<endl;
 int usm;
 i==usm;
 // cout<<usm;
