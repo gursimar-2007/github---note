@@ -25,7 +25,7 @@ int main(){
             cout<<i<<"";
         }
     }
-cout<<endl;
+// cout<<endl;
 int usm;
 i==usm;
 // cout<<usm;
