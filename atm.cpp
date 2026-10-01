@@ -9,6 +9,7 @@ int main()
     char exit;
     char op;
     int balance;
+    balance=100000;
 
     cout << "welcome to the atml" << endl
          << "please enter your pin";
