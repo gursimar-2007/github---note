@@ -13,7 +13,7 @@ int main(){
             continue;
         }
         bool is_prime=true;
-        for(int j=2;j*j<=i;j++){
+        for(int j=2;j<i;j++){
             
             if (i%j==0){
                 is_prime=false;
