@@ -2,4 +2,4 @@
 # username must not have any digits
 # username must not contain any digitsd
 username = input("PLEASE ENTER A USERNAME")
-counter = len.us
+counter = username.count
