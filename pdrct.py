@@ -5,6 +5,6 @@ for i in range(n==0):
     r=n%10
     r*10+r
     n=n/10
-    rem=rem*10+r
-    pdt=rem*mult
+    # rem=rem*10+r
+    pdt=n*mult
 print(mult)
