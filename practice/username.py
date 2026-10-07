@@ -10,4 +10,5 @@ if (counter>=12):
 elif (digicount==True):
     print("YOUR USERNAME CONTAINS DIGIT")
 elif(spacecount!=0):
-    print("YOUR USERNAME CANNOT HAVE SPACES")    
+    print("YOUR USERNAME CANNOT HAVE SPACES")
+print("your ")    
