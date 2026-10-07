@@ -2,7 +2,7 @@
 # username must not have any digits
 # username must not contain any digitsd
 username = input("PLEASE ENTER A USERNAME")
-counter = username.count
+counter = len(username)
 digicount = username.isdigit
 spacecount = username.find(" ")
 if (counter>=12):
