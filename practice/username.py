@@ -7,9 +7,9 @@ digicount = username.isdigit
 spacecount = username.find(" ")
 if (counter>=12):
     print("USERNAME CANNOT BE MORE THAN 12 WORDS")
-elif (digicount==True):
+elif not username.isalpha():
     print("YOUR USERNAME CONTAINS DIGIT")
-elif not username.find(" ")== -1:
+elif not username.find(" ")==-1:
     print("YOUR USERNAME CANNOT HAVE SPACES")
 else:
     print("YOUR USERNAME IS GOOD TO GO")    
