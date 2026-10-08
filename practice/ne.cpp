@@ -34,7 +34,7 @@ public:
     void showData() {
         showstdata();
 
-        cout << "Sports Marks: " << sports_marks << endl;
+        cout << "Sports Marks: " << sports_marks ;
     }
 };
 
