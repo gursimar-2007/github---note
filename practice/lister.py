@@ -1,7 +1,7 @@
 import builtins
 if __name__ == '__main__':
     n = int(input())
-    integer_list = int(input())
+    # integer_list = int(input())
     integer_list = map(int, input().split())
-    t=()
+    t=tuple(integer_list)
     print(f"{hash(t)}")
