@@ -1,5 +1,5 @@
 list=[]
-N=int(input("enter a number"))
+N=int(input())
 
 
 
