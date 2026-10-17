@@ -46,9 +46,13 @@ b=int(input("enter the second number"))
 match op:
     case '+':
         c=a+b
-        print(f"the number is ")
-
-
+        print(f"the number is {c}")
+    case '-':
+        c=a-b
+        print(f"the number is {c}")
+    case '*':
+        c=a*b
+        print("the number is ")
 
 
 
