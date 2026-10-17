@@ -26,8 +26,11 @@ n3=int(input("enter your third number"))
 if(n1>n2):
     if(n1>n3):
         print(f"greatest:{n1} ")
-els
+elif (n2>n3):
 
+    print(f"greatest:{n2}")
+else:
+    pr
 
 
 
