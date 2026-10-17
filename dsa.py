@@ -60,10 +60,10 @@
 #             c=a/b
 #             print(f"the number is {c}")
 n=int(input("enter your number"))
-sum=0
+fact=1
 for i in range(1,n+1,1):
-    sum=sum+i
-print(sum)
+    fact=fact*i
+print(fact)
 
 
 
