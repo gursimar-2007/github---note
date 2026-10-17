@@ -66,9 +66,9 @@
 n=int(input("enter your number"))
 temp=n
 reb=0
-while temp==0:
+while temp>0:
     chidbhund=temp%10
-    
+
 while n!=0:
     remainder=n%10
     reb=reb*10+remainder
