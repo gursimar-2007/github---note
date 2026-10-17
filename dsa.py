@@ -52,7 +52,14 @@ match op:
         print(f"the number is {c}")
     case '*':
         c=a*b
-        print("the number is ")
+        print(f"the number is {c}")
+    case '/':
+        if a==0 or b==0:
+            print
+        c=a/b
+        
+        print(f"the number is {c}")
+
 
 
 
