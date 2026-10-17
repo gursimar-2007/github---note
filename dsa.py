@@ -32,11 +32,12 @@
 # else:
 
 #     print(f"greatest:{n3}
-leap=int(input("enter the year you want to check"))
-if leap%4==0 and leap%400==0 and leap%100!=0:
-    print("its a leap year")
-else:
-    print("its not a leap year")
+while True:
+    leap=int(input("enter the year you want to check"))
+    if leap%4==0 and leap%400==0 and leap%100!=0:
+        print("its a leap year")
+    else:
+        print("its not a leap year")
 
 
 
