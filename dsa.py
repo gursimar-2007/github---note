@@ -20,17 +20,27 @@
 #         print("the number you have entered is positive")
 #     elif n<0:
 #         print("the number you have entered is negative")
-n1=int(input("enter your first number"))
-n2=int(input("enter your second number"))
-n3=int(input("enter your third number"))
-if(n1>n2):
-    if(n1>n3):
-        print(f"greatest:{n1} ")
-elif (n2>n3):
+# n1=int(input("enter your first number"))
+# n2=int(input("enter your second number"))
+# n3=int(input("enter your third number"))
+# if(n1>n2):
+#     if(n1>n3):
+#         print(f"greatest:{n1} ")
+# elif (n2>n3):
 
-    print(f"greatest:{n2}")
+#     print(f"greatest:{n2}")
+# else:
+
+#     print(f"greatest:{n3}
+leap=int(input("enter the year you want to check"))
+if leap%4==0 and leap%400==0 and leap%100!=0:
+    print("its a leap year")
 else:
-    print(f"greatest:{n3}")
+    print("its not a leap year")
+
+
+
+
 
 
 
