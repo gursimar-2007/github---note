@@ -59,15 +59,21 @@
 #         else:
 #             c=a/b
 #             print(f"the number is {c}")
-n=int(input("enter your number"))
 # fact=1
 # for i in range(1,n+1,1):
 #     fact=fact*i
 # print(fact)
+n=int(input("enter your number"))
 temp=n
-while True:
-    n=n/10
-
+reb=0
+while temp==0:
+    chidbhund=temp%10
+    
+while n!=0:
+    remainder=n%10
+    reb=reb*10+remainder
+    n=n//10
+print(reb)
 
 
 
