@@ -25,7 +25,8 @@ n2=int(input("enter your second number"))
 n3=int(input("enter your third number"))
 if(n1>n2):
     if(n1>n3):
-        print(f"greatest:{n} ")
+        print(f"greatest:{n1} ")
+els
 
 
 
