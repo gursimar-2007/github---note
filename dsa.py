@@ -30,7 +30,7 @@ elif (n2>n3):
 
     print(f"greatest:{n2}")
 else:
-    pr
+    print(f"greatest:{n3}")
 
 
 
