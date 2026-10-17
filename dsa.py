@@ -38,29 +38,32 @@
 #         print("its a leap year")
 #     else:
 #         print("its not a leap year")
-op=input("enter your number")
-a=int(input("enter the first number"))
-b=int(input("enter the second number"))
+# op=input("enter your number")
+# a=int(input("enter the first number"))
+# b=int(input("enter the second number"))
 
 
-match op:
-    case '+':
-        c=a+b
-        print(f"the number is {c}")
-    case '-':
-        c=a-b
-        print(f"the number is {c}")
-    case '*':
-        c=a*b
-        print(f"the number is {c}")
-    case '/':
-        if a==0 or b==0:
-            print("the number you have entered is zero and we cannot process that please try to type that again with some other number as we cannot process this thing you can enter other nun,mber too but are you crazy enough to type that ttype of number")
-        else:
-            c=a/b
-            print(f"the number is {c}")
-                                    
-
+# match op:
+#     case '+':
+#         c=a+b
+#         print(f"the number is {c}")
+#     case '-':
+#         c=a-b
+#         print(f"the number is {c}")
+#     case '*':
+#         c=a*b
+#         print(f"the number is {c}")
+#     case '/':
+#         if a==0 or b==0:
+#             print("the number you have entered is zero and we cannot process that please try to type that again with some other number as we cannot process this thing you can enter other nun,mber too but are you crazy enough to type that ttype of number")
+#         else:
+#             c=a/b
+#             print(f"the number is {c}")
+n=int(input("enter your number"))
+sum=0
+for i in range(1,n+1,1):
+    sum=sum+i
+print(sum)
 
 
 
