@@ -55,11 +55,11 @@ match op:
         print(f"the number is {c}")
     case '/':
         if a==0 or b==0:
-            print
-        c=a/b
-        
-        print(f"the number is {c}")
-
+            print("the number you have entered is zero and we cannot process that please try to type that again with some other number as we cannot process this thing you can enter other nun,mber too but are you crazy enough to type that ttype of number")
+        else:
+            c=a/b
+            print(f"the number is {c}")
+                                    
 
 
 
