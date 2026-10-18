@@ -14,4 +14,34 @@
 #     res=res*10+remainder
 #     n=n//10
 # print(res)
-n=in
+n=int(input("enter the number "))
+# temp=n
+# githmuthia=0
+# while temp>0:
+#     remainder=temp%10
+#     githmuthia=githmuthia*10+remainder
+#     temp=temp//10
+# if(githmuthia==n):
+#     print("its a pallindrome number")
+# else:
+#     print("its not a pallindrome number")
+
+
+
+
+
+
+
+
+#! lets count the digits
+count=0
+temp=n
+sum=0
+while n>0:
+    rem=n%10
+    n=n//10
+    sum=sum+rem
+    # count+=1
+    # print(count)
+print(sum)
+
