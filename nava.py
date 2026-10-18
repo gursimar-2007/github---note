@@ -7,7 +7,11 @@ n=int(input("enter your number for fibbonaci"))
 #         break
 #     else:
 #         print("its a prime number")
+a=0
+b=1
+print(a,b,end=" ")
 for i in range(0,n,1):
-    for j in range(0,n,1):
-        c=i+j
-    print(c)
+    c=a+b
+    a=b
+    b=c
+    print(c,end=" ")
