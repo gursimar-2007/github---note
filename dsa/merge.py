@@ -1,19 +1,14 @@
 class Solution(object):
-    def merge(self, nums1, m, nums2, n,newli):
-        newli=[]
-        for vals in nums1:
-            if(vals==0):
-                pass
+    def merge(self, nums1, m, nums2, n):
+        i=m-1
+        j=n-1
+        k=m+n-1
+        while(j>=0 ):
+            if(i>=0 and nums1[i]>nums2[j]):
+                nums1[k]=nums1[i]
+                i-=1
+                k-=1
             else:
-                m+=1
-                newli.append(vals)
-        for vals in nums2:
-            if(vals==0):
-                pass
-            else:
-                newli.append(vals)
-                n+=1
-s1=Solution([1,2,3],[3])
-
-        
-        
+                nums1[k]=nums2[j]
+                j-=1
+                k-=1
